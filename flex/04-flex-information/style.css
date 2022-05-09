@@ -7,9 +7,31 @@ img {
   height: 100px;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .title {
+  align-self: center;
   font-size: 36px;
   font-weight: 900;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+}
+
+.chilli, .pepper, .saffron, .barberry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
