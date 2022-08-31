@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -7,16 +10,10 @@ img {
   height: 100px;
 }
 
-.body {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
 .title {
-  align-self: center;
   font-size: 36px;
   font-weight: 900;
+  padding-bottom:32px;
 }
 
 .plants {
@@ -24,14 +21,15 @@ img {
   gap: 52px;
 }
 
-.chilli, .pepper, .saffron, .barberry {
+.chilli,
+.pepper,
+.saffron,
+.barberry {
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.text {
-  text-align: center;
 }
 
 /* do not edit this footer */
